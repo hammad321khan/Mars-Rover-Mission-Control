@@ -1,1 +1,48 @@
+# Functional Requirements
 
+## Mars Rover Mission Control
+
+| ID | Functional Requirement |
+|---|---|
+| FR-01 | The rover shall receive commands from Mission Control and execute valid commands. |
+| FR-02 | The rover shall report its current position, battery level, temperature, and communication status. |
+| FR-03 | Only authenticated Mission Control operators shall be allowed to issue commands. |
+| FR-04 | The system shall reject invalid or unauthorized commands. |
+| FR-05 | If the rover detects a critical battery or thermal condition, it shall enter Safe Mode. |
+| FR-06 | Mission Control shall receive command execution status. |
+| FR-07 | All commands and critical rover events shall be recorded with timestamp and operator ID. |
+| FR-08 | The system shall continue operating despite temporary communication interruptions. |
+
+## Requirement Explanation
+
+### FR-01 — Command Execution
+
+The rover shall receive valid commands from Mission Control and execute them.
+
+### FR-02 — Rover Monitoring
+
+The rover shall report its current position, battery level, temperature, and communication status.
+
+### FR-03 — Authentication
+
+Only authenticated Mission Control operators shall be allowed to issue commands.
+
+### FR-04 — Command Validation
+
+The system shall reject invalid or unauthorized commands.
+
+### FR-05 — Safe Mode
+
+The rover shall enter Safe Mode when a critical battery or thermal condition is detected.
+
+### FR-06 — Command Status
+
+Mission Control shall receive the execution status of commands.
+
+### FR-07 — Event Logging
+
+All commands and critical rover events shall be stored with a timestamp and operator ID.
+
+### FR-08 — Communication Recovery
+
+The system shall continue operating despite temporary communication interruptions.
